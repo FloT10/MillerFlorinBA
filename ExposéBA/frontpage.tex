@@ -1,0 +1,87 @@
+\newcommand{\univname}{Technische Hochschule Aschaffenburg}
+
+
+
+\newlength\headpicwd
+\setlength{\headpicwd}{0.2\pdfpagewidth} % image width of physical page?
+\newcommand\printlogo{%
+  \AddToShipoutPictureBG*{%
+    \AtStockUpperLeft{%
+      \raisebox{-4cm}{%
+      \hspace{2,5cm}
+        % centred with respect to physical page ..?
+        % \hspace*{\dimexpr 0.5\pdfpagewidth - 0.5\headpicwd\relax}%
+        \includegraphics[keepaspectratio=true, width=0.20\pdfpagewidth]{images/template/thab_logo.png}%
+      }%
+    }%
+  }%
+}
+
+\begin{titlepage}
+\begin{center}
+
+
+\printlogo
+
+
+\vspace*{.06\textheight}
+{\scshape\LARGE \textbf{\papertitle}\par}\vspace{0.5cm} % University name
+\textsc{\Large \textbf{\papersubtitle}}\\[0.5cm] % Thesis type
+
+
+\vspace{1cm}
+
+
+\authorname \\
+\enrolmentnumber \\
+\mailadress
+
+
+
+
+ 
+\vspace{1cm}
+
+
+
+
+
+
+\papertype \\
+\paperscope
+
+ 
+\vspace{1cm}
+
+
+{\scshape\large \univname\par} % University name
+
+{\scshape\large \programmename \par} % University name
+
+%Module: \modulename \\
+%Course: \coursename
+
+\vspace{1cm}
+
+Betreuer der Hochschule: \supervisorname \\
+Betreuer des Unternehmens: \firstassessorname \\
+% Assessor: \secondassessorname \\ % Uncomment if needed
+% Assessor: \thirdassessorname \\ % Uncomment if needed
+
+
+\vspace{1cm}
+
+Bearbeitungszeitraum: \startdate\ bis \finishdate \\
+
+Abgabedatum und Kolloquium: \submissiondate
+
+ 
+\vfill
+\end{center}
+\end{titlepage}
+
+
+\thispagestyle{empty}
+\quad \addtocounter{page}{-1}
+%\newpage
+\pagenumbering{roman}   
