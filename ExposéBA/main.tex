@@ -1,0 +1,78 @@
+\LoadClass{unili}
+
+
+
+%%%% THE FOLLOWING INFORMATION MUST BE PROVIDED %%%%
+
+\newcommand{\authorname}{Florin Miller} % Specify the Name and Surname of the author; for group papers, provide all authors
+\newcommand{\location}{Mittelbiberach} % Specify "where" you are writing the document
+\newcommand{\enrolmentnumber}{2235910} % For group papers, specify all numbers
+\newcommand{\mailadress}{\href{mailto:s210178@th-ab.de}{s210178@th-ab.de}}
+\newcommand{\programmename}{B.Eng. Wirtschaftsingenieurwesen}
+\newcommand{\modulename}{modulename}
+\newcommand{\coursename}{coursename}
+\newcommand{\startdate}{20/10/2023}
+\newcommand{\finishdate}{08/03/2024}
+\newcommand{\submissiondate}{Vorschlag 08/03/2024}
+\newcommand{\supervisorname}{Prof. Dr. Patrick Warnat}
+
+
+\newcommand{\papertitle}{Anwendung von großen Sprachmodellen in der technischen Anlagendokumentation}
+\newcommand{\papersubtitle}{eine explorative Arbeit am Beispiel Verfahrenstechnischer Anlagen}
+\newcommand{\papertype}{Exposé zur Bachelorarbeit}
+\newcommand{\subjectname}{subjectname} % (subject as per Study and Assessment Regulations)] 
+\newcommand{\paperscope}{} 
+
+% If an assessor is not required, or if there is more than one assessor, remember to change the 'frontpage.tex' file accordingly!
+\newcommand{\firstassessorname}{N.N.} % This is enabled by default
+%\newcommand{\secondassessorname}{TITLE, FIRSTNAME, LASTNAME} 
+%\newcommand{\thirdassessorname}{TITLE, FIRSTNAME, LASTNAME}
+
+
+
+
+
+
+\addbibresource{references.bib}
+
+\setlength{\parindent}{0pt}
+
+
+\begin{document}
+
+    \input{frontpage}
+    
+    \tableofcontents
+    
+    \newpage
+    
+    %\input{sections/0-abstract}
+    
+    
+    
+
+    \pagenumbering{arabic} 
+    
+    
+    
+    \input{sections/1-introduction}
+    \input{sections/2-related_work}
+    \input{sections/3-research_question}
+    \input{sections/4-procedure}
+    \input{sections/5-preliminary_toc}
+    %\input{sections/6-contents}
+    \input{sections/7-preliminary_roadmap}
+    
+
+        
+    \newpage
+    
+    
+    
+    
+    \printbibliography[title={Literaturverzeichnis}]
+    \addcontentsline{toc}{section}{Literaturverzeichnis}
+    
+    \input{sections/8-declaration_of_authorship}
+
+\end{document}
