@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<formular>
+<formblatt_6.2>
     <kopfzeile>
         <tabelle>
             <spalte>
@@ -12,9 +12,98 @@
         </tabelle>
     </kopfzeile>
     
-    <ueberschrift>Detailangaben Wassergefährdende Stoffe</ueberschrift>
+    <ueberschrift>Detailangaben Wassergefährdende Stoffe, Löschwasserrückhaltung</ueberschrift>
     <unterueberschrift>Hinweis: Für jede Anlage ist ein eigenes Formblatt auszufüllen.</unterueberschrift>
-    
-    <!-- Weitere Formularelemente hier bitte einfügen -->
-</formular>
 
+    <tabelle>
+        <ueberschrift>Angaben zur Anlage</ueberschrift>
+        <spalte>
+            <zeile2>Anlagenbezeichnung</zeile2>
+            <zeile1>Anlagenart</zeile1>
+            <zeile3>Anlagenbeschreibung</zeile3>
+        </spalte>
+        <spalte>
+            <zeile2>{anlagenbezeichnung}</zeile2>
+            <zeile1>{anlagenart}</zeile1>
+            <zeile3>{anlagenbeschreibung}</zeile3>
+        </spalte>
+    </tabelle>
+    
+    <tabelle>
+        <ueberschrift>Angaben zum Standort der Anlage</ueberschrift>
+        <spalte>
+            <zeile1>Heilquellenschutzgebiet</zeile1>
+            <zeile2>Wasserschutzgebiet</zeile2>
+            <zeile3>Überschwemmungsgebiet</zeile3>
+        </spalte>
+        <spalte>
+            <zeile1>{heilquellenschutzgebiet}</zeile1>
+            <zeile2>{wasserschutzgebiet}</zeile2>
+            <zeile3>{ueberschwemmungsgebiet}</zeile3>
+        </spalte>
+    </tabelle>
+    
+    <tabelle>
+        <ueberschrift>Angaben zu den wassergefährdenden Stoffen in der Anlage</ueberschrift>
+        <spalten>
+            <spalte>Chemische Bezeichnung / Handelsname</spalte>
+            <spalte>Aggregatzustand</spalte>
+            <spalte>WGK</spalte>
+            <spalte>Volumen/Masse</spalte>
+        </spalten>
+        <daten>
+            <!-- Daten für die erste Zeile -->
+            <zeile>
+                <wert>{stoff1}</wert>
+                <wert>{aggregatzustand1}</wert>
+                <wert>{wgk1}</wert>
+                <wert>{volumen_masse1}</wert>
+            </zeile>
+            <!-- Daten für die zweite Zeile -->
+            <zeile>
+                <wert>{stoff2}</wert>
+                <wert>{aggregatzustand2}</wert>
+                <wert>{wgk2}</wert>
+                <wert>{volumen_masse2}</wert>
+            </zeile>
+            <!-- Weitere Daten für weitere Zeilen können hier hinzugefügt werden -->
+        </daten>
+    </tabelle>
+
+    <<tabelle>
+        <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach § 39 AwSV</ueberschrift>
+        <spalte>
+            <zeile1>Maßgebendes Volumen/Masse</zeile1>
+            <zeile2>Maßgebende WGK</zeile2>
+            <zeile3>Gefährdungsstufe</zeile3>
+        </spalte>
+        <spalte>
+            <zeile1>{massg_volumen_masse}</zeile1>
+            <zeile2>{massg_wgk}</zeile2>
+            <zeile3>{gefaehrdungsstufe}</zeile3>
+        </spalte>
+    </tabelle>
+
+    <auswahl>
+        <ueberschrift>Aufstellung der Anlage</ueberschrift>
+        
+        <option>
+            <kasten aufstellung="undefined">Unterirdisch</kasten>
+        </option>
+        
+        <option>
+            <kasten aufstellung="undefined">Oberirdisch im Gebäude</kasten>
+        </option>
+        
+        <option>
+            <kasten aufstellung="undefined">Oberirdisch im Freien</kasten>
+        </option>
+        
+        <option>
+            <kasten aufstellung="undefined">Oberirdisch im Freien mit Überdachung</kasten>
+        </option>
+    </auswahl>
+    
+    
+
+</formblatt_6.2>
