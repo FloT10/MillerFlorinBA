@@ -88,19 +88,19 @@
         <ueberschrift>Aufstellung der Anlage</ueberschrift>
         
         <option>
-            <kasten aufstellung="undefined">Unterirdisch</kasten>
+            <kasten aufstellung="false">Unterirdisch</kasten>
         </option>
         
         <option>
-            <kasten aufstellung="undefined">Oberirdisch im Gebäude</kasten>
+            <kasten aufstellung="false">Oberirdisch im Gebäude</kasten>
         </option>
         
         <option>
-            <kasten aufstellung="undefined">Oberirdisch im Freien</kasten>
+            <kasten aufstellung="false">Oberirdisch im Freien</kasten>
         </option>
         
         <option>
-            <kasten aufstellung="undefined">Oberirdisch im Freien mit Überdachung</kasten>
+            <kasten aufstellung="false">Oberirdisch im Freien mit Überdachung</kasten>
         </option>
     </auswahl>
     
@@ -136,6 +136,62 @@
             <!-- Weitere Daten für weitere Zeilen können hier hinzugefügt werden -->
         </daten>
     </tabelle>
+
+    <tabelle>
+        <ueberschrift>Sicherheitseinrichtungen</ueberschrift>
+        <spalten>
+            <spalte>Ankreuzen</spalte>
+            <spalte>Sicherheitseinrichtung</spalte>
+            <spalte>Bauaufsichtlicher Verwendbarkeitsnachweis / sonstige Informationen</spalte>
+            <spalte>Rückhaltevolumen</spalte>
+            <spalte>Werkstoff</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>Leckanzeigegerät</wert>
+                <wert>{verwendbarkeitsnachweis1}</wert>
+                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Werkstoff nicht relevant -->
+            </zeile>
+            <zeile>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>Überfüllsicherung</wert>
+                <wert>{verwendbarkeitsnachweis2}</wert>
+                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Werkstoff nicht relevant -->
+            </zeile>
+            <zeile>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>Rückhalteeinrichtung</wert>
+                <wert>{verwendbarkeitsnachweis3}</wert>
+                <wert>{rueckhaltevolumen}</wert> <!-- Rückhaltevolumen relevant -->
+                <wert>{werkstoff_rueckhalteeinrichtung}</wert> <!-- Werkstoff relevant -->
+            </zeile>
+            <zeile>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>Leckagesensor</wert>
+                <wert>{verwendbarkeitsnachweis4}</wert>
+                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Werkstoff nicht relevant -->
+            </zeile>
+            <zeile>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>Löschwasserrückhaltung</wert>
+                <wert>{verwendbarkeitsnachweis5}</wert>
+                <wert>{rueckhaltevolumen_loeschwasser}</wert> <!-- Rückhaltevolumen relevant -->
+                <wert>-</wert> <!-- Werkstoff nicht relevant -->
+            </zeile>
+            <zeile>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>Sonstige/Organisatorische</wert>
+                <wert>{verwendbarkeitsnachweis6}</wert>
+                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Werkstoff nicht relevant -->
+            </zeile>
+        </daten>
+    </tabelle>
+    
     
 
 </formblatt_6.2>
