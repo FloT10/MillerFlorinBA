@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formular>
+    <kopfzeile>
+        <tabelle>
+            <spalte>
+                <zeile1>Antragsunterlage für immissionsschutzrechtliches Genehmigungsverfahren</zeile1>
+            </spalte>
+            <spalte>
+                <zeile1>Anlage 1 / Formblatt 6.2</zeile1>
+                <zeile2>Detailangaben / Wassergefährdende Stoffe</zeile2>
+            </spalte>
+        </tabelle>
+    </kopfzeile>
+    
+    <ueberschrift>Detailangaben Wassergefährdende Stoffe</ueberschrift>
+    <unterueberschrift>Hinweis: Für jede Anlage ist ein eigenes Formblatt auszufüllen.</unterueberschrift>
+    
+    <!-- Weitere Formularelemente hier einfügen -->
+</formular>
+
