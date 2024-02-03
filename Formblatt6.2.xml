@@ -10,6 +10,7 @@
     <unterueberschrift>Hinweis: Für jede Anlage ist ein eigenes Formblatt auszufüllen.</unterueberschrift>
 
     <tabelle_angaben_anlage>
+        <ueberschrift>Angaben zur Anlage</ueberschrift>
         <spalte>
             <zeile2>Anlagenbezeichnung</zeile2>
             <zeile1>Anlagenart</zeile1>
@@ -23,6 +24,7 @@
     </tabelle_angaben_anlage>
 
     <tabelle_standort_anlage>
+        <ueberschrift>Angaben zum Standort der Anlage</ueberschrift>
         <spalte>
             <zeile1>Heilquellenschutzgebiet</zeile1>
             <zeile2>Wasserschutzgebiet</zeile2>
@@ -36,6 +38,7 @@
     </tabelle_standort_anlage>
 
     <tabelle_wassergefaehrdende_stoffe>
+        <ueberschrift>Angaben zu den wassergefährdenden Stoffen in der Anlage</ueberschrift>
         <spalten>
             <spalte>Stoff</spalte>
             <spalte>Aggregatzustand</spalte>
@@ -62,6 +65,7 @@
     </tabelle_wassergefaehrdende_stoffe>
 
     <tabelle_gefaehrdungsstufe>
+        <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach § 39 AwSV</ueberschrift>
         <spalte>
             <zeile1>Maßgebendes Volumen/Masse</zeile1>
             <zeile2>Maßgebende WGK</zeile2>
@@ -95,6 +99,7 @@
     </auswahl_aufstellung>
 
     <tabelle_behaelter>
+        <ueberschrift>Behälter</ueberschrift>
         <spalten>
             <spalte>Herstellernummer</spalte>
             <spalte>Stoff</spalte>
@@ -127,6 +132,7 @@
     </tabelle_behaelter>
 
     <tabelle_sicherheitseinrichtungen>
+        <ueberschrift>Sicherheitseinrichtungen</ueberschrift>
         <spalten>
             <spalte>Ankreuzen</spalte>
             <spalte>Sicherheitseinrichtung</spalte>
@@ -179,4 +185,60 @@
             </zeile>
         </daten>
     </tabelle_sicherheitseinrichtungen>
+
+    <tabelle_rohrleitungen>
+        <ueberschrift>Rohrleitungen</ueberschrift>
+        <spalten>
+            <spalte>Bauart</spalte>
+            <spalte>Anzahl</spalte>
+            <spalte>oberirdisch</spalte>
+            <spalte>unterirdisch</spalte>
+            <spalte>Werkstoff</spalte>
+            <spalte>Bauaufsichtlicher Verwendbarkeitsnachweis / sonstige Informationen</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>Doppelwandig mit Leckanzeige</wert>
+                <wert>{anzahl_doppelwandig}</wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>{werkstoff_doppelwandig}</wert>
+                <wert>{verwendbarkeitsnachweis_doppelwandig}</wert>
+            </zeile>
+            <zeile>
+                <wert>Einwandig</wert>
+                <wert>{anzahl_einwandig}</wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>{werkstoff_einwandig}</wert>
+                <wert>{verwendbarkeitsnachweis_einwandig}</wert>
+            </zeile>
+            <zeile>
+                <wert>Einwandig als Saugleitung</wert>
+                <wert>{anzahl_saugleitung}</wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>{werkstoff_saugleitung}</wert>
+                <wert>{verwendbarkeitsnachweis_saugleitung}</wert>
+            </zeile>
+            <zeile>
+                <wert>Einwandig im Schutzrohr</wert>
+                <wert>{anzahl_schutzrohr}</wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert><kaestchen angekreuzt="false"/></wert>
+                <wert>{werkstoff_schutzrohr}</wert>
+                <wert>{verwendbarkeitsnachweis_schutzrohr}</wert>
+            </zeile>
+        </daten>
+    </tabelle_rohrleitungen>
+    
+    <tabelle_abfüllen_umschlage>
+        <ueberschrift>Fläche von Abfüll-/ Umschlaganlagen</ueberschrift>
+        <!-- Nicht Teil der Arbeit -->
+    <tabelle_abfüllen_umschlage>
+
+    <tabelle_entwässerung>
+        <ueberschrift>Entwässerung der Fläche</ueberschrift>
+        <!-- Nicht Teil der Arbeit -->
+    <tabelle_entwässerung>
 </formblatt_6.2>
