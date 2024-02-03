@@ -234,11 +234,11 @@
     
     <tabelle_abfüllen_umschlage>
         <ueberschrift>Fläche von Abfüll-/ Umschlaganlagen</ueberschrift>
-        <!-- Nicht Teil der Arbeit -->
+        <!-- Nicht Teil dieser Arbeit -->
     <tabelle_abfüllen_umschlage>
 
     <tabelle_entwässerung>
         <ueberschrift>Entwässerung der Fläche</ueberschrift>
-        <!-- Nicht Teil der Arbeit -->
+        <!-- Nicht Teil dieser Arbeit -->
     <tabelle_entwässerung>
 </formblatt_6.2>
