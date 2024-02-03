@@ -46,7 +46,7 @@
     <tabelle>
         <ueberschrift>Angaben zu den wassergefährdenden Stoffen in der Anlage</ueberschrift>
         <spalten>
-            <spalte>Chemische Bezeichnung / Handelsname</spalte>
+            <spalte>Stoff</spalte>
             <spalte>Aggregatzustand</spalte>
             <spalte>WGK</spalte>
             <spalte>Volumen/Masse</spalte>
@@ -104,6 +104,38 @@
         </option>
     </auswahl>
     
+    <tabelle>
+        <ueberschrift>Behälter</ueberschrift>
+        <spalten>
+            <spalte>Herstellernummer</spalte>
+            <spalte>Stoff</spalte>
+            <spalte>Nennvolumen</spalte>
+            <spalte>einwandig/doppelwandig</spalte>
+            <spalte>Werkstoff</spalte>
+            <spalte>bauaufsichtlicher Verwendbarkeitsnachweis</spalte>
+        </spalten>
+        <daten>
+            <!-- Daten für die erste Zeile -->
+            <zeile>
+                <wert>{herstellernummer1}</wert>
+                <wert>{stoff1}</wert>
+                <wert>{nennvolumen1}</wert>
+                <wert>{einwandig_doppelwandig1}</wert>
+                <wert>{werkstoff1}</wert>
+                <wert>{verwendbarkeitsnachweis1}</wert>
+            </zeile>
+            <!-- Daten für die zweite Zeile -->
+            <zeile>
+                <wert>{herstellernummer2}</wert>
+                <wert>{stoff2}</wert>
+                <wert>{nennvolumen2}</wert>
+                <wert>{einwandig_doppelwandig2}</wert>
+                <wert>{werkstoff2}</wert>
+                <wert>{verwendbarkeitsnachweis2}</wert>
+            </zeile>
+            <!-- Weitere Daten für weitere Zeilen können hier hinzugefügt werden -->
+        </daten>
+    </tabelle>
     
 
 </formblatt_6.2>
