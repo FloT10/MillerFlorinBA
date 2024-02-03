@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <formblatt_6.2>
     <tabelle_kopf>
-        <zeile1>Antragsunterlage für immissionsschutzrechtliches Genehmigungsverfahren</zeile1>
+        <zeile1>Antragsunterlage fuer immissionsschutzrechtliches Genehmigungsverfahren</zeile1>
         <zeile2>Anlage 1 / Formblatt 6.2</zeile2>
-        <zeile3>Detailangaben / Wassergefährdende Stoffe</zeile3>
+        <zeile3>Detailangaben / Wassergefaehrdende Stoffe</zeile3>
     </tabelle_kopf>
 
-    <ueberschrift>Detailangaben Wassergefährdende Stoffe, Löschwasserrückhaltung</ueberschrift>
-    <unterueberschrift>Hinweis: Für jede Anlage ist ein eigenes Formblatt auszufüllen.</unterueberschrift>
+    <ueberschrift>Detailangaben Wassergefaehrdende Stoffe, Loeschwasserrueckhaltung</ueberschrift>
+    <unterueberschrift>Hinweis: Fuer jede Anlage ist ein eigenes Formblatt auszufuellen.</unterueberschrift>
 
     <tabelle_angaben_anlage>
         <ueberschrift>Angaben zur Anlage</ueberschrift>
@@ -28,7 +28,7 @@
         <spalte>
             <zeile1>Heilquellenschutzgebiet</zeile1>
             <zeile2>Wasserschutzgebiet</zeile2>
-            <zeile3>Überschwemmungsgebiet</zeile3>
+            <zeile3>ueberschwemmungsgebiet</zeile3>
         </spalte>
         <spalte>
             <zeile1>{heilquellenschutzgebiet}</zeile1>
@@ -38,7 +38,7 @@
     </tabelle_standort_anlage>
 
     <tabelle_wassergefaehrdende_stoffe>
-        <ueberschrift>Angaben zu den wassergefährdenden Stoffen in der Anlage</ueberschrift>
+        <ueberschrift>Angaben zu den wassergefaehrdenden Stoffen in der Anlage</ueberschrift>
         <spalten>
             <spalte>Stoff</spalte>
             <spalte>Aggregatzustand</spalte>
@@ -46,30 +46,30 @@
             <spalte>Volumen/Masse</spalte>
         </spalten>
         <daten>
-            <!-- Daten für die erste Zeile -->
+            <!-- Daten fuer die erste Zeile -->
             <zeile>
                 <wert>{stoff1}</wert>
                 <wert>{aggregatzustand1}</wert>
                 <wert>{wgk1}</wert>
                 <wert>{volumen_masse1}</wert>
             </zeile>
-            <!-- Daten für die zweite Zeile -->
+            <!-- Daten fuer die zweite Zeile -->
             <zeile>
                 <wert>{stoff2}</wert>
                 <wert>{aggregatzustand2}</wert>
                 <wert>{wgk2}</wert>
                 <wert>{volumen_masse2}</wert>
             </zeile>
-            <!-- Weitere Daten für weitere Zeilen können hier hinzugefügt werden -->
+            <!-- Weitere Daten fuer weitere Zeilen koennen hier hinzugefuegt werden -->
         </daten>
     </tabelle_wassergefaehrdende_stoffe>
 
     <tabelle_gefaehrdungsstufe>
-        <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach § 39 AwSV</ueberschrift>
+        <ueberschrift>Ermittlung der Gefaehrdungsstufe der Anlage nach § 39 AwSV</ueberschrift>
         <spalte>
-            <zeile1>Maßgebendes Volumen/Masse</zeile1>
-            <zeile2>Maßgebende WGK</zeile2>
-            <zeile3>Gefährdungsstufe</zeile3>
+            <zeile1>Massgebendes Volumen/Masse</zeile1>
+            <zeile2>Massgebende WGK</zeile2>
+            <zeile3>Gefaehrdungsstufe</zeile3>
         </spalte>
         <spalte>
             <zeile1>{massg_volumen_masse}</zeile1>
@@ -86,7 +86,7 @@
         </option>
         
         <option>
-            <kasten aufstellung="false">Oberirdisch im Gebäude</kasten>
+            <kasten aufstellung="false">Oberirdisch im Gebaeude</kasten>
         </option>
         
         <option>
@@ -94,12 +94,12 @@
         </option>
         
         <option>
-            <kasten aufstellung="false">Oberirdisch im Freien mit Überdachung</kasten>
+            <kasten aufstellung="false">Oberirdisch im Freien mit ueberdachung</kasten>
         </option>
     </auswahl_aufstellung>
 
     <tabelle_behaelter>
-        <ueberschrift>Behälter</ueberschrift>
+        <ueberschrift>Behaelter</ueberschrift>
         <spalten>
             <spalte>Herstellernummer</spalte>
             <spalte>Stoff</spalte>
@@ -109,7 +109,7 @@
             <spalte>bauaufsichtlicher Verwendbarkeitsnachweis</spalte>
         </spalten>
         <daten>
-            <!-- Daten für die erste Zeile -->
+            <!-- Daten fuer die erste Zeile -->
             <zeile>
                 <wert>{herstellernummer1}</wert>
                 <wert>{stoff1}</wert>
@@ -118,7 +118,7 @@
                 <wert>{werkstoff1}</wert>
                 <wert>{verwendbarkeitsnachweis1}</wert>
             </zeile>
-            <!-- Daten für die zweite Zeile -->
+            <!-- Daten fuer die zweite Zeile -->
             <zeile>
                 <wert>{herstellernummer2}</wert>
                 <wert>{stoff2}</wert>
@@ -127,7 +127,7 @@
                 <wert>{werkstoff2}</wert>
                 <wert>{verwendbarkeitsnachweis2}</wert>
             </zeile>
-            <!-- Weitere Daten für weitere Zeilen können hier hinzugefügt werden -->
+            <!-- Weitere Daten fuer weitere Zeilen koennen hier hinzugefuegt werden -->
         </daten>
     </tabelle_behaelter>
 
@@ -137,50 +137,50 @@
             <spalte>Ankreuzen</spalte>
             <spalte>Sicherheitseinrichtung</spalte>
             <spalte>Bauaufsichtlicher Verwendbarkeitsnachweis / sonstige Informationen</spalte>
-            <spalte>Rückhaltevolumen</spalte>
+            <spalte>Rueckhaltevolumen</spalte>
             <spalte>Werkstoff</spalte>
         </spalten>
         <daten>
             <zeile>
                 <wert><kaestchen angekreuzt="false"/></wert>
-                <wert>Leckanzeigegerät</wert>
+                <wert>Leckanzeigegeraet</wert>
                 <wert>{verwendbarkeitsnachweis1}</wert>
-                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Rueckhaltevolumen nicht relevant -->
                 <wert>-</wert> <!-- Werkstoff nicht relevant -->
             </zeile>
             <zeile>
                 <wert><kaestchen angekreuzt="false"/></wert>
-                <wert>Überfüllsicherung</wert>
+                <wert>ueberfuellsicherung</wert>
                 <wert>{verwendbarkeitsnachweis2}</wert>
-                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Rueckhaltevolumen nicht relevant -->
                 <wert>-</wert> <!-- Werkstoff nicht relevant -->
             </zeile>
             <zeile>
                 <wert><kaestchen angekreuzt="false"/></wert>
-                <wert>Rückhalteeinrichtung</wert>
+                <wert>Rueckhalteeinrichtung</wert>
                 <wert>{verwendbarkeitsnachweis3}</wert>
-                <wert>{rueckhaltevolumen}</wert> <!-- Rückhaltevolumen relevant -->
+                <wert>{rueckhaltevolumen}</wert> <!-- Rueckhaltevolumen relevant -->
                 <wert>{werkstoff_rueckhalteeinrichtung}</wert> <!-- Werkstoff relevant -->
             </zeile>
             <zeile>
                 <wert><kaestchen angekreuzt="false"/></wert>
                 <wert>Leckagesensor</wert>
                 <wert>{verwendbarkeitsnachweis4}</wert>
-                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Rueckhaltevolumen nicht relevant -->
                 <wert>-</wert> <!-- Werkstoff nicht relevant -->
             </zeile>
             <zeile>
                 <wert><kaestchen angekreuzt="false"/></wert>
-                <wert>Löschwasserrückhaltung</wert>
+                <wert>Loeschwasserrueckhaltung</wert>
                 <wert>{verwendbarkeitsnachweis5}</wert>
-                <wert>{rueckhaltevolumen_loeschwasser}</wert> <!-- Rückhaltevolumen relevant -->
+                <wert>{rueckhaltevolumen_loeschwasser}</wert> <!-- Rueckhaltevolumen relevant -->
                 <wert>-</wert> <!-- Werkstoff nicht relevant -->
             </zeile>
             <zeile>
                 <wert><kaestchen angekreuzt="false"/></wert>
                 <wert>Sonstige/Organisatorische</wert>
                 <wert>{verwendbarkeitsnachweis6}</wert>
-                <wert>-</wert> <!-- Rückhaltevolumen nicht relevant -->
+                <wert>-</wert> <!-- Rueckhaltevolumen nicht relevant -->
                 <wert>-</wert> <!-- Werkstoff nicht relevant -->
             </zeile>
         </daten>
@@ -232,13 +232,13 @@
         </daten>
     </tabelle_rohrleitungen>
     
-    <tabelle_abfüllen_umschlage>
-        <ueberschrift>Fläche von Abfüll-/ Umschlaganlagen</ueberschrift>
+    <tabelle_abfuellen_umschlage>
+        <ueberschrift>Flaeche von Abfuell-/ Umschlaganlagen</ueberschrift>
         <!-- Nicht Teil dieser Arbeit -->
-    <tabelle_abfüllen_umschlage>
+    <tabelle_abfuellen_umschlage>
 
-    <tabelle_entwässerung>
-        <ueberschrift>Entwässerung der Fläche</ueberschrift>
+    <tabelle_entwaesserung>
+        <ueberschrift>Entwaesserung der Flaeche</ueberschrift>
         <!-- Nicht Teil dieser Arbeit -->
-    <tabelle_entwässerung>
+    <tabelle_entwaesserung>
 </formblatt_6.2>
