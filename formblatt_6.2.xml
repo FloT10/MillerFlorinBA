@@ -17,7 +17,7 @@
             <zeile3>Anlagenbeschreibung</zeile3>
         </spalte>
         <spalte>
-            <zeile2>{anlagenbezeichnung}</zeile2>
+            <anlagenbezeichnung>{anlagenbezeichnung}</anlagenbezeichnung>
             <zeile1>{anlagenart}</zeile1>
             <zeile3>{anlagenbeschreibung}</zeile3>
         </spalte>
