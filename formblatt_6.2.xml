@@ -12,13 +12,13 @@
     <tabelle_angaben_anlage>
         <ueberschrift>Angaben zur Anlage</ueberschrift>
         <spalte>
-            <zeile2>Anlagenbezeichnung</zeile2>
             <zeile1>Anlagenart</zeile1>
-            <zeile3>Anlagenbeschreibung</zeile3>
+            <zeile2>Anlagenbezeichnung</zeile2>
+            <zeile3>Anlagenumfang</zeile3>
         </spalte>
         <spalte>
-            <anlagenbezeichnung>{anlagenbezeichnung}</anlagenbezeichnung>
             <zeile1>{anlagenart}</zeile1>
+            <zeile2>{anlagenbezeichnung}</zeile2>
             <zeile3>{anlagenbeschreibung}</zeile3>
         </spalte>
     </tabelle_angaben_anlage>
