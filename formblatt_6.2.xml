@@ -109,7 +109,6 @@
             <spalte>bauaufsichtlicher Verwendbarkeitsnachweis</spalte>
         </spalten>
         <daten>
-            <!-- Daten fuer die erste Zeile -->
             <zeile>
                 <wert>{herstellernummer1}</wert>
                 <wert>{stoff1}</wert>
@@ -118,16 +117,6 @@
                 <wert>{werkstoff1}</wert>
                 <wert>{verwendbarkeitsnachweis1}</wert>
             </zeile>
-            <!-- Daten fuer die zweite Zeile -->
-            <zeile>
-                <wert>{herstellernummer2}</wert>
-                <wert>{stoff2}</wert>
-                <wert>{nennvolumen2}</wert>
-                <wert>{einwandig_doppelwandig2}</wert>
-                <wert>{werkstoff2}</wert>
-                <wert>{verwendbarkeitsnachweis2}</wert>
-            </zeile>
-            <!-- Weitere Daten fuer weitere Zeilen koennen hier hinzugefuegt werden -->
         </daten>
     </tabelle_behaelter>
 
