@@ -22,9 +22,9 @@
     </spalten>
     <daten>
       <zeile>
-        <wert>VAR{anlagenart}</wert>
-        <wert>\VAR{anlagenbezeichnung}</wert>
-        <wert>\VAR{anlagenumfang}</wert>
+        <wert>{anlagenart}</wert>
+        <wert>{anlagenbezeichnung}</wert>
+        <wert>{anlagenumfang}</wert>
       </zeile>
     </daten>
   </tabelle_angaben_anlage>
@@ -38,12 +38,17 @@
     </spalten>
     <daten>
       <zeile>
-        <wert>MNc</wert>
-        <wert>flüssig</wert>
-        <wert>WGK3</wert>
-        <wert>22</wert>
+        <wert>{stoff_bezeichnung}</wert>
+        <wert>{stoff_aggregatzustand}</wert>
+        <wert>{stoff_wgk}</wert>
+        <wert>{stoff_volumen_masse}</wert>
       </zeile>
     </daten>
   </tabelle_angaben_stoffe>
-  <!-- Weitere Tabellen und Daten hier -->
+  <tabelle_angaben_gefährdungsstufe>
+  </tabelle_angaben_gefährungsstufe>
+  <tabelle_angaben_behälter>
+  </tabelle_angaben_behälter>
+  <tabelle_angaben_rohrleitungen>
+  </tabelle_angaben_rohrleitungen>
 </formblatt_6_2>
