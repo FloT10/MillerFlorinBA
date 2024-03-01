@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formblatt_6_2>
+  <tabelle_kopf>
+    <ueberschrift>Angaben zum Formblatt</ueberschrift>
+    <spalten>
+      <spalte>Antragsunterlage</spalte>
+      <spalte>Anlage 1 / Formblatt 6.2</spalte>
+    </spalten>
+    <daten>
+      <zeile>
+        <wert>Für immissionsschutzrechtliches Genehmigungsverfahren</wert>
+        <wert>Detailangaben / Wassergefährdende Stoffe</wert>
+      </zeile>
+    </daten>
+  </tabelle_kopf>
+  <tabelle_angaben_anlage>
+    <ueberschrift>Angaben zur Anlage</ueberschrift>
+    <spalten>
+      <spalte>Anlagenart</spalte>
+      <spalte>Anlagenbezeichnung</spalte>
+      <spalte>Anlagenumfang</spalte>
+    </spalten>
+    <daten>
+      <zeile>
+        <wert>VAR{anlagenart}</wert>
+        <wert>\VAR{anlagenbezeichnung}</wert>
+        <wert>\VAR{anlagenumfang}</wert>
+      </zeile>
+    </daten>
+  </tabelle_angaben_anlage>
+  <tabelle_angaben_stoffe>
+    <ueberschrift>Angaben zu den wassergefährdenden Stoffen</ueberschrift>
+    <spalten>
+      <spalte>Bezeichnung</spalte>
+      <spalte>Aggregatzustand</spalte>
+      <spalte>WGK</spalte>
+      <spalte>Volumen (m3) / Masse (t)</spalte>
+    </spalten>
+    <daten>
+      <zeile>
+        <wert>MNc</wert>
+        <wert>flüssig</wert>
+        <wert>WGK3</wert>
+        <wert>22</wert>
+      </zeile>
+    </daten>
+  </tabelle_angaben_stoffe>
+  <!-- Weitere Tabellen und Daten hier -->
+</formblatt_6_2>
