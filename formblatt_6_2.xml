@@ -29,7 +29,7 @@
     </daten>
   </tabelle_angaben_anlage>
   <tabelle_angaben_stoffe>
-    <ueberschrift>Angaben zu den wassergefährdenden Stoffen</ueberschrift>
+    <ueberschrift>Angaben zu den wassergefährdenden Stoffen in der Anlage</ueberschrift>
     <spalten>
       <spalte>Bezeichnung</spalte>
       <spalte>Aggregatzustand</spalte>
@@ -46,9 +46,56 @@
     </daten>
   </tabelle_angaben_stoffe>
   <tabelle_angaben_gefährdungsstufe>
-  </tabelle_angaben_gefährungsstufe>
-  <tabelle_angaben_behälter>
-  </tabelle_angaben_behälter>
+    <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach §39 AwSV</ueberschrift>
+    <spalten>
+      <spalte>Maßgebendes Volumen</spalte>
+      <spalte>Maßgebende WGK</spalte>
+      <spalte>Gefährdungsstufe</spalte>
+    </spalten>
+    <daten>
+      <zeile>
+        <wert>{anlage_volumen}</wert>
+        <wert>{anlage_wgk}</wert>
+        <wert>{anlage_gefaehrdungsstufe}</wert>
+      </zeile>
+    </daten>
+  </tabelle_angaben_gefährdungsstufe>
+  <tabelle_angaben_behaelter>
+    <ueberschrift>Angaben zu Behältern</ueberschrift>
+    <spalten>
+      <spalte>Tanknummer</spalte>
+      <spalte>Stoff</spalte>
+      <spalte>einwandig / doppelwandig</spalte>
+      <spalte>Material</spalte>
+      <spalte>Zulassung</spalte>
+    </spalten>
+    <daten>
+      <zeile>
+        <wert>{tank_nummer}</wert>
+        <wert>{tank_stoff}</wert>
+        <wert>{tank_wandig}</wert>
+        <wert>{tank_material}</wert>
+        <wert>{tank_zulassung}</wert>
+      </zeile>
+    </daten>
+  </tabelle_angaben_behaelter>
   <tabelle_angaben_rohrleitungen>
+    <ueberschrift>Angaben zu Rohrleitungen</ueberschrift>
+    <spalten>
+      <spalte>Bauart</spalte>
+      <spalte>oberirdisch / unterirdisch</spalte>
+      <spalte>Anzahl</spalte>
+      <spalte>Material</spalte>
+      <spalte>Zulassung</spalte>
+    </spalten>
+    <daten>
+      <zeile>
+        <wert>{rl_bauart}</wert>
+        <wert>{rl_irdisch}</wert>
+        <wert>{rl_anzahl}</wert>
+        <wert>{rl_material}</wert>
+        <wert>{rl_zulassung}</wert>
+      </zeile>
+    </daten>
   </tabelle_angaben_rohrleitungen>
 </formblatt_6_2>
