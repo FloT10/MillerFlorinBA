@@ -66,6 +66,7 @@
       <spalte>Tanknummer</spalte>
       <spalte>Stoff</spalte>
       <spalte>einwandig / doppelwandig</spalte>
+      <spalte>Volumen</spalte>
       <spalte>Material</spalte>
       <spalte>Zulassung</spalte>
     </spalten>
@@ -74,6 +75,7 @@
         <wert>{tank_nummer}</wert>
         <wert>{tank_stoff}</wert>
         <wert>{tank_wandig}</wert>
+        <wert>{tank_volumen}</wert>
         <wert>{tank_material}</wert>
         <wert>{tank_zulassung}</wert>
       </zeile>
