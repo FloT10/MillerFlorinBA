@@ -1,103 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <formblatt_6_2>
   <tabelle_kopf>
-    <ueberschrift>Angaben zum Formblatt</ueberschrift>
-    <spalten>
-      <spalte>Antragsunterlage</spalte>
-      <spalte>Anlage 1 / Formblatt 6.2</spalte>
-    </spalten>
-    <daten>
-      <zeile>
-        <wert>Für immissionsschutzrechtliches Genehmigungsverfahren</wert>
-        <wert>Detailangaben / Wassergefährdende Stoffe</wert>
-      </zeile>
-    </daten>
+      <ueberschrift>Angaben zum Formblatt</ueberschrift>
+      <spalten>
+          <spalte>Antragsunterlage</spalte>
+          <spalte>Anlage 1 / Formblatt 6.2</spalte>
+      </spalten>
+      <daten>
+          <zeile>
+              <wert>Für immissionsschutzrechtliches Genehmigungsverfahren</wert>
+              <wert>Detailangaben / Wassergefährdende Stoffe</wert>
+          </zeile>
+      </daten>
   </tabelle_kopf>
   <tabelle_angaben_anlage>
-    <ueberschrift>Angaben zur Anlage</ueberschrift>
-    <spalten>
-      <spalte>Anlagenart</spalte>
-      <spalte>Anlagenbezeichnung</spalte>
-      <spalte>Anlagenumfang</spalte>
-    </spalten>
-    <daten>
-      <zeile>
-        <wert>{anlagenart}</wert>
-        <wert>{anlagenbezeichnung}</wert>
-        <wert>{anlagenumfang}</wert>
-      </zeile>
-    </daten>
+      <ueberschrift>Angaben zur Anlage</ueberschrift>
+      <spalten>
+          <spalte>Anlagenart</spalte>
+          <spalte>Anlagenbezeichnung</spalte>
+          <spalte>Anlagenumfang</spalte>
+      </spalten>
+      <daten>
+          <zeile>
+              <wert>{angaben_anlage_data['Anlagenart']}</wert>
+              <wert>{angaben_anlage_data['Anlagenbezeichnung']}</wert>
+              <wert>{angaben_anlage_data['Anlagenumfang']}</wert>
+          </zeile>
+      </daten>
   </tabelle_angaben_anlage>
   <tabelle_angaben_stoffe>
-    <ueberschrift>Angaben zu den wassergefährdenden Stoffen in der Anlage</ueberschrift>
-    <spalten>
-      <spalte>Bezeichnung</spalte>
-      <spalte>Aggregatzustand</spalte>
-      <spalte>WGK</spalte>
-      <spalte>Volumen (m3) / Masse (t)</spalte>
-    </spalten>
-    <daten>
-      <zeile>
-        <wert>{stoff_bezeichnung}</wert>
-        <wert>{stoff_aggregatzustand}</wert>
-        <wert>{stoff_wgk}</wert>
-        <wert>{stoff_volumen_masse}</wert>
-      </zeile>
-    </daten>
+      <ueberschrift>Angaben zu den wassergefährdenden Stoffen</ueberschrift>
+      <spalten>
+          <spalte>Stoffbezeichnung_Pumpe</spalte>
+          <spalte>Aggregatzustand_Pumpe</spalte>
+          <spalte>WGK_Pumpe</spalte>
+          <spalte>Volumen_Pumpe</spalte>
+          <spalte>Stoffbezeichnung_Tank</spalte>
+          <spalte>Aggregatzustand_Tank</spalte>
+          <spalte>WGK_Tank</spalte>
+          <spalte>Volumen_Tank</spalte>
+      </spalten>
+      <daten>
+          <zeile>
+              <wert>{angaben_stoffe_data["Stoffbezeichnung_Pumpe"]}</wert>
+              <wert>{angaben_stoffe_data["Aggregatzustand_Pumpe"]}</wert>
+              <wert>{angaben_stoffe_data["WGK_Pumpe"]}</wert>
+              <wert>{angaben_stoffe_data["Volumen_Pumpe"]}</wert>
+              <wert>{angaben_stoffe_data["Stoffbezeichnung_Tank"]}</wert>
+              <wert>{angaben_stoffe_data["Aggregatzustand_Tank"]}</wert>
+              <wert>{angaben_stoffe_data["WGK_Tank"]}</wert>
+              <wert>{angaben_stoffe_data["Volumen_Tank"]}</wert>
+          </zeile>
+      </daten>
   </tabelle_angaben_stoffe>
-  <tabelle_angaben_gefährdungsstufe>
-    <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach §39 AwSV</ueberschrift>
-    <spalten>
-      <spalte>Maßgebendes Volumen</spalte>
-      <spalte>Maßgebende WGK</spalte>
-      <spalte>Gefährdungsstufe</spalte>
-    </spalten>
-    <daten>
-      <zeile>
-        <wert>{anlage_volumen}</wert>
-        <wert>{anlage_wgk}</wert>
-        <wert>{anlage_gefaehrdungsstufe}</wert>
-      </zeile>
-    </daten>
-  </tabelle_angaben_gefährdungsstufe>
+  <tabelle_angaben_gefaaehrdungsstufe>
+      <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach §39 AwSV</ueberschrift>
+      <spalten>
+          <spalte>Maßgebendes Volumen</spalte>
+          <spalte>Maßgebende WGK</spalte>
+          <spalte>Gefährdungsstufe</spalte>
+      </spalten>
+      <daten>
+          <zeile>
+              <wert>{angaben_gefaehrdungsstufe_data['Maßgebendes Volumen']}</wert>
+              <wert>{angaben_gefaehrdungsstufe_data['Maßgebende WGK']}</wert>
+              <wert>{angaben_gefaehrdungsstufe_data['Gefährdungsstufe']}</wert>
+          </zeile>
+      </daten>
+  </tabelle_angaben_gefaaehrdungsstufe>
   <tabelle_angaben_behaelter>
-    <ueberschrift>Angaben zu Behältern</ueberschrift>
+    <ueberschrift>Angaben zu den Behältern</ueberschrift>
     <spalten>
-      <spalte>Tanknummer</spalte>
-      <spalte>Stoff</spalte>
-      <spalte>einwandig / doppelwandig</spalte>
-      <spalte>Volumen</spalte>
-      <spalte>Material</spalte>
-      <spalte>Zulassung</spalte>
+        <spalte>Tanknummer</spalte>
+        <spalte>enthaltener Stoff</spalte>
+        <spalte>einwandig / doppelwandig</spalte>
+        <spalte>Nennvolumen (m3)</spalte>
+        <spalte>Material</spalte>
+        <spalte>Zulassung</spalte>
     </spalten>
     <daten>
-      <zeile>
-        <wert>{tank_nummer}</wert>
-        <wert>{tank_stoff}</wert>
-        <wert>{tank_wandig}</wert>
-        <wert>{tank_volumen}</wert>
-        <wert>{tank_material}</wert>
-        <wert>{tank_zulassung}</wert>
-      </zeile>
+        <zeile>
+            <wert>{angaben_behaelter_data['Tanknummer']}</wert>
+            <wert>{angaben_behaelter_data['enthaltener Stoff']}</wert>
+            <wert>{angaben_behaelter_data['einwandig / doppelwandig']}</wert>
+            <wert>{angaben_behaelter_data['Nennvolumen (m3)']}</wert>
+            <wert>{angaben_behaelter_data['Material']}</wert>
+            <wert>{angaben_behaelter_data['Zulassung']}</wert>
+        </zeile>
     </daten>
   </tabelle_angaben_behaelter>
-  <tabelle_angaben_rohrleitungen>
-    <ueberschrift>Angaben zu Rohrleitungen</ueberschrift>
+  <tabelle_angaben_rohrleitungen1>
+      <ueberschrift>Angaben zu den doppelwandigen Rohrleitungen</ueberschrift>
+      <spalten>
+          <spalte>Bauart</spalte>
+          <spalte>oberirdisch / unterirdisch</spalte>
+          <spalte>Anzahl</spalte>
+          <spalte>Material</spalte>
+          <spalte>Zulassung</spalte>
+      </spalten>
+      <daten>
+          <zeile>
+              <wert>{angaben_rohrleitungen1_data['Bauart']}</wert>
+              <wert>{angaben_rohrleitungen1_data['oberirdisch / unterirdisch']}</wert>
+              <wert>{angaben_rohrleitungen1_data['Anzahl']}</wert>
+              <wert>{angaben_rohrleitungen1_data['Material']}</wert>
+              <wert>{angaben_rohrleitungen1_data['Zulassung']}</wert>
+          </zeile>
+      </daten>
+  </tabelle_angaben_rohrleitungen1>
+  <tabelle_angaben_rohrleitungen2>
+    <ueberschrift>Angaben zu den einwandigen Rohrleitungen</ueberschrift>
     <spalten>
-      <spalte>Bauart</spalte>
-      <spalte>oberirdisch / unterirdisch</spalte>
-      <spalte>Anzahl</spalte>
-      <spalte>Material</spalte>
-      <spalte>Zulassung</spalte>
+        <spalte>Bauart</spalte>
+        <spalte>oberirdisch / unterirdisch</spalte>
+        <spalte>Anzahl</spalte>
+        <spalte>Material</spalte>
+        <spalte>Zulassung</spalte>
     </spalten>
     <daten>
-      <zeile>
-        <wert>{rl_bauart}</wert>
-        <wert>{rl_irdisch}</wert>
-        <wert>{rl_anzahl}</wert>
-        <wert>{rl_material}</wert>
-        <wert>{rl_zulassung}</wert>
-      </zeile>
+        <zeile>
+            <wert>{angaben_rohrleitungen2_data['Bauart']}</wert>
+            <wert>{angaben_rohrleitungen2_data['oberirdisch / unterirdisch']}</wert>
+            <wert>{angaben_rohrleitungen2_data['Anzahl']}</wert>
+            <wert>{angaben_rohrleitungen2_data['Material']}</wert>
+            <wert>{angaben_rohrleitungen2_data['Zulassung']}</wert>
+        </zeile>
     </daten>
-  </tabelle_angaben_rohrleitungen>
+  </tabelle_angaben_rohrleitungen2>
+  <tabelle_angaben_rohrleitungen3>
+    <ueberschrift>Angaben zu den einwandigen Rohrleitungen als Saugleitung</ueberschrift>
+    <spalten>
+        <spalte>Bauart</spalte>
+        <spalte>oberirdisch / unterirdisch</spalte>
+        <spalte>Anzahl</spalte>
+        <spalte>Material</spalte>
+        <spalte>Zulassung</spalte>
+    </spalten>
+    <daten>
+        <zeile>
+            <wert>{angaben_rohrleitungen3_data['Bauart']}</wert>
+            <wert>{angaben_rohrleitungen3_data['oberirdisch / unterirdisch']}</wert>
+            <wert>{angaben_rohrleitungen3_data['Anzahl']}</wert>
+            <wert>{angaben_rohrleitungen3_data['Material']}</wert>
+            <wert>{angaben_rohrleitungen3_data['Zulassung']}</wert>
+        </zeile>
+    </daten>
+  </tabelle_angaben_rohrleitungen3>
+  <tabelle_angaben_rohrleitungen4>
+    <ueberschrift>Angaben zu den einwandigen Rohrleitungen im Schutzrohr</ueberschrift>
+    <spalten>
+        <spalte>Bauart</spalte>
+        <spalte>oberirdisch / unterirdisch</spalte>
+        <spalte>Anzahl</spalte>
+        <spalte>Material</spalte>
+        <spalte>Zulassung</spalte>
+    </spalten>
+    <daten>
+        <zeile>
+            <wert>{angaben_rohrleitungen4_data['Bauart']}</wert>
+            <wert>{angaben_rohrleitungen4_data['oberirdisch / unterirdisch']}</wert>
+            <wert>{angaben_rohrleitungen4_data['Anzahl']}</wert>
+            <wert>{angaben_rohrleitungen4_data['Material']}</wert>
+            <wert>{angaben_rohrleitungen4_data['Zulassung']}</wert>
+        </zeile>
+    </daten>
+  </tabelle_angaben_rohrleitungen4>
 </formblatt_6_2>
