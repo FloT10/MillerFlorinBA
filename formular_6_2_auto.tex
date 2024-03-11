@@ -1,0 +1,109 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{xcolor}
+
+% Seitenränder einstellen
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=1cm, headheight=1.5cm, includehead]{geometry}
+
+% Fancyhdr-Stil definieren
+\pagestyle{fancy}
+\fancyhf{}  % Kopf- und Fußzeilen leeren
+
+% Befüllung der Kopfzeile mit einer Tabelle und manuellen Breiten und Höhen
+\fancyhead[L]{\begin{tabular}{|p{0.75\textwidth}|p{0.25\textwidth}|} 
+    \hline 
+    \textbf{\Large{Antragsunterlage}} \newline \Large{für immissionsschutzrechtliche Genehmigungsverfahren} & Anlage 1 / Formblatt 6.2 \newline Detailangaben wassergefährdende Stoffe \\[1cm] 
+    \hline 
+\end{tabular}}
+
+\pagecolor{yellow!10} % 20% Gelb, anpassbar
+\color{black} 
+
+
+\begin{document}
+
+\subsection*{Angaben zur Anlage}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Anlagenart} & HBV-Anlage \\
+        \hline
+        \textbf{Anlagenbezeichnung} & C01V01-HEX.EX03 \\
+        \hline
+        \textbf{Anlagenumfang} & Plattenwärmetauscher, Rohrbündelwärmetauscher, Rohrleitungssystem, Kolbenpumpe, Behälter, Kreiselpumpe \\
+        \hline
+    \end{tabularx}
+\end{table}
+
+\subsection*{Angaben zu den wassergefährdenden Stoffen}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|X|X|X|X|}
+        \hline
+        \textbf{Stoffbezeichnung} & \textbf{Aggregatzustand} & \textbf{WGK} & \textbf{Volumen ($m^3$)/ \newline Masse (t)} \\
+        \hline
+        MNb & flüssig & 3 & 33 \\
+        \hline
+        MNb & flüssig & 3 & 22 \\
+        \hline
+    \end{tabularx}
+\end{table}
+
+\subsection*{Ermittlung der Gefährdungsstufe der Anlage nach §39 AwSV}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|X|X|X|}
+        \hline
+        \textbf{Maßgebendes Volumen ($m^3$)} & \textbf{Maßgebende WGK} & \textbf{Gefährdungsstufe} \\
+        \hline
+        55 & 3 & D \\
+        \hline
+    \end{tabularx}
+\end{table}
+
+\subsection*{Angaben zu den Behältern}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+        \hline
+        \textbf{Tanknummer} & \textbf{Stoff} & \textbf{einwandig/ \newline doppelwandig} & \textbf{Nennvolumen \newline ($m^3$)} & \textbf{Material} & \textbf{Nachweis} \\
+        \hline
+        T4750 & MNb & einwandig & 22 & 1.4306 & AD2000 \\
+        \hline
+    \end{tabularx}
+\end{table}
+
+
+
+\subsection*{Angaben zu den Rohrleitungen}
+
+\begin{table}[H]
+    \centering
+    \begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+        \hline
+        \textbf{Bauart} & \textbf{oberirdisch} & \textbf{unterirdisch} & \textbf{Anzahl} & \textbf{Material} & \textbf{Nachweis} \\
+        \hline
+        \textbf{Doppelwandig \newline mit Leckanzeige} &  &  & 0 &  &  \\
+        \hline
+        \textbf{Einwandig \newline} & X &  & 10 & 1.4435, 1.4303 & AD2000 \\
+        \hline
+        \textbf{Einwandig \newline als Saugleitung} & X &   & 1 & 1.4303 & AD2000 \\
+        \hline
+        \textbf{Einwandig \newline im Schutzrohr} &  &   & 0 &  &  \\
+        \hline
+    \end{tabularx}
+\end{table}
+
+
+
+\end{document}

@@ -1,0 +1,149 @@
+<formblatt_6_2>
+    <tabelle_kopf>
+        <ueberschrift>Angaben zum Formblatt</ueberschrift>
+        <spalten>
+            <spalte>Antragsunterlage</spalte>
+            <spalte>Anlage 1 / Formblatt 6.2</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>Für immissionsschutzrechtliches Genehmigungsverfahren</wert>
+                <wert>Detailangaben / Wassergefährdende Stoffe</wert>
+            </zeile>
+        </daten>
+    </tabelle_kopf>
+    <tabelle_angaben_anlage>
+        <ueberschrift>Angaben zur Anlage</ueberschrift>
+        <spalten>
+            <spalte>Anlagenart</spalte>
+            <spalte>Anlagenbezeichnung</spalte>
+            <spalte>Anlagenumfang</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>HBV-Anlage</wert>
+                <wert>C01V01-HEX.EX03</wert>
+                <wert>Plattenwärmetauscher, Rohrbündelwärmetauscher, Rohrleitungssystem, Kolbenpumpe, Behälter, Kreiselpumpe</wert>
+            </zeile>
+        </daten>
+    </tabelle_angaben_anlage>
+    <tabelle_angaben_stoffe>
+        <ueberschrift>Angaben zu den wassergefährdenden Stoffen</ueberschrift>
+        <spalten>
+            <spalte>Stoffbezeichnung_Pumpe</spalte>
+            <spalte>Aggregatzustand_Pumpe</spalte>
+            <spalte>WGK_Pumpe</spalte>
+            <spalte>Volumen_Pumpe</spalte>
+            <spalte>Stoffbezeichnung_Tank</spalte>
+            <spalte>Aggregatzustand_Tank</spalte>
+            <spalte>WGK_Tank</spalte>
+            <spalte>Volumen_Tank</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>MNb</wert>
+                <wert>flüssig</wert>
+                <wert>3</wert>
+                <wert />
+                <wert>MNb</wert>
+                <wert>flüssig</wert>
+                <wert>3</wert>
+                <wert>22</wert>
+            </zeile>
+        </daten>
+    </tabelle_angaben_stoffe>
+    <tabelle_angaben_gefaaehrdungsstufe>
+        <ueberschrift>Ermittlung der Gefährdungsstufe der Anlage nach §39 AwSV</ueberschrift>
+        <spalten>
+            <spalte>Maßgebendes Volumen</spalte>
+            <spalte>Maßgebende WGK</spalte>
+            <spalte>Gefährdungsstufe</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>55</wert>
+                <wert>3</wert>
+                <wert>D</wert>
+            </zeile>
+        </daten>
+    </tabelle_angaben_gefaaehrdungsstufe>
+    <tabelle_angaben_behaelter>
+        <ueberschrift>Angaben zu den Behältern</ueberschrift>
+        <spalten>
+            <spalte>Tanknummer</spalte>
+            <spalte>enthaltener Stoff</spalte>
+            <spalte>einwandig / doppelwandig</spalte>
+            <spalte>Nennvolumen (m3)</spalte>
+            <spalte>Material</spalte>
+            <spalte>Zulassung</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>T4750</wert>
+                <wert>MNb</wert>
+                <wert>einwandig</wert>
+                <wert>22</wert>
+                <wert>1.4306</wert>
+                <wert>AD2000</wert>
+            </zeile>
+        </daten>
+    </tabelle_angaben_behaelter>
+    <tabelle_angaben_rohrleitungen1>
+        <ueberschrift>Angaben zu den doppelwandigen Rohrleitungen</ueberschrift>
+        <spalten>
+            <spalte>Bauart</spalte>
+            <spalte>oberirdisch / unterirdisch</spalte>
+            <spalte>Anzahl</spalte>
+            <spalte>Material</spalte>
+            <spalte>Zulassung</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>Doppelwandig mit Leckanzeige</wert>
+                <wert />
+                <wert>0</wert>
+                <wert />
+                <wert />
+            </zeile>
+        </daten>
+    </tabelle_angaben_rohrleitungen1>
+    <tabelle_angaben_rohrleitungen2>
+        <ueberschrift>Angaben zu den einwandigen Rohrleitungen</ueberschrift>
+        <spalten>
+            <spalte>Bauart</spalte>
+            <spalte>oberirdisch / unterirdisch</spalte>
+            <spalte>Anzahl</spalte>
+            <spalte>Material</spalte>
+            <spalte>Zulassung</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>Einwandig</wert>
+                <wert>X</wert>
+                <wert>10</wert>
+                <wert>1.4435, 1.4303</wert>
+                <wert>AD2000</wert>
+            </zeile>
+        </daten>
+    </tabelle_angaben_rohrleitungen2>
+    <tabelle_angaben_rohrleitungen3>
+        <ueberschrift>Angaben zu den einwandigen Rohrleitungen als Saugleitung</ueberschrift>
+        <spalten>
+            <spalte>Bauart</spalte>
+            <spalte>oberirdisch / unterirdisch</spalte>
+            <spalte>Anzahl</spalte>
+            <spalte>Material</spalte>
+            <spalte>Zulassung</spalte>
+        </spalten>
+        <daten>
+            <zeile>
+                <wert>Einwandig als Saugleitung</wert>
+                <wert>X</wert>
+                <wert>1</wert>
+                <wert>1.4303</wert>
+                <wert>AD2000</wert>
+            </zeile>
+        </daten>
+    </tabelle_angaben_rohrleitungen3>
+    <tabelle_angaben_rohrleitungen4>
+        <ueberschrift>Ang
