@@ -5,6 +5,8 @@ C01V01-HEX.EX02.pdf - PDF R&I welches als Vorlage zur manuellen Bearbeitung hera
 
 C01V01-HEX.EX03.xml - XML R&I welches als Input zur automatisierten Bearbeitung herangezogenwurde. Es wurden geringfügige Anpassungen vorgenommen. Hierbei wurde auf vorhandene Klassen zurückgegriffen.
 
+Evaluation.pdf - Vorlage zur Ergebnisevaluation.
+
 Stoffliste_Rohrklassen.pdf - Darstellung der notwendiger Annahmen welche getroffen werden mussten. Diese sind in der Logik von prototyp.ipynb umgesetzt.
 
 formblatt_6.2.pdf - Original Formblatt aus Antragsunterlagen für Genehmigungsanträge. Zielformular welches automatisiert befüllt werden soll.
