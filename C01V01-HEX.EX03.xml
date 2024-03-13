@@ -11186,7 +11186,9 @@
       <GenericAttribute Name="EquipmentDescriptionAssignmentClass" Value="TANK" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS2181987301" />
       <GenericAttribute Name="NominalCapacity(Volume)" Value="22" Format="double" Units="MetreCubed" AttributeURI="http://sandbox.dexpi.org/rdl/NominalCapacity(Volume)" UnitsURI="http://data.posccaesar.org/rdl/RDS1349099" />
       <GenericAttribute Name="CylinderLength" Format="double" AttributeURI="http://sandbox.dexpi.org/rdl/CylinderLength" />
+      <!-- Vom Autor hinzugefügtes Attribut -->
       <GenericAttribute Name="FluidCodeAssignmentClass" Value="MNb" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/FluidCodeAssignmentClass" />
+      <!-- Vom Autor hinzugefügtes Attribut -->
       <GenericAttribute Name="EngineeringStandardClass" Value="AD2000" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS13051758" />
     </GenericAttributes>
     <Association Type="is a part of" ItemID="PBS21965A6820724688BB443B3EB454E19E" />
