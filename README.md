@@ -1,7 +1,7 @@
 # MillerFlorinBA
 **Repository for B.ENG. Thesis**
 
-![Übersicht über die Architektur der Arbeit](https://github.com/FloT10/MillerFlorinBA/blob/008973e5dca9687f46fabe854e133685051f7394/U%CC%88bersicht.png)
+![Übersicht über die Architektur der Arbeit](https://github.com/FloT10/MillerFlorinBA/blob/761166a300764855d6d169a831fd70fb626fe1cd/U%CC%88bersicht.png)
 
 *C01V01-HEX.EX02.pdf* - PDF R&I welches als Vorlage zur manuellen Bearbeitung herangezogenwurde
 
