@@ -24,3 +24,5 @@
 *formblatt_6_2_auto.xml* - Automatisiert befülltes Formblatt als XML-Datei. Zur Befüllung wurde auf C01V01-HEX.EX03.xml zurückgegriffen. Die Erstellung wurde durch prototyp.ipynb realisiert.
 
 *prototyp.ipynb* - Jupyter Notebook mit dem Prototyp zur automatisierten Erstellung des Formblatts als XML-, LaTeX- und PDF-Datei. Es wurde auf die oben genannten Daten zurückgegriffen.
+
+*prototyp.pdf* - Prototyp.ipynb als PDF zur Dokumentation.
