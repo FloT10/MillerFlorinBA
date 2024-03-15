@@ -9,6 +9,8 @@
 
 *Evaluation.pdf* - Vorlage zur Ergebnisevaluation.
 
+*MillerF_B_ENG.pdf* Thesis.
+
 *Stoffliste_Rohrklassen.pdf* - Darstellung der notwendiger Annahmen welche getroffen werden mussten. Diese sind in der Logik von prototyp.ipynb umgesetzt.
 
 *formblatt_6.2.pdf* - Original Formblatt aus Antragsunterlagen für Genehmigungsanträge. Zielformular welches automatisiert befüllt werden soll.
