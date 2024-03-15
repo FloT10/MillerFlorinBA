@@ -9,7 +9,7 @@
 
 *Evaluation.pdf* - Vorlage zur Ergebnisevaluation.
 
-*MillerF_B_ENG.pdf* Thesis.
+*MillerF_B_ENG.pdf* - Thesis.
 
 *Stoffliste_Rohrklassen.pdf* - Darstellung der notwendiger Annahmen welche getroffen werden mussten. Diese sind in der Logik von prototyp.ipynb umgesetzt.
 
